@@ -1,0 +1,90 @@
+/***********************************************************************************************************************
+DOCUMENT: style/format.css
+DEVELOPED BY: Ryan Stemkoski
+COMPANY: Zipline Interactive
+EMAIL: ryan@gozipline.com
+PHONE: 509-321-2849
+DATE: 2/26/2009
+DESCRIPTION: This document contains the structural formatting files for the accordion style menu.
+************************************************************************************************************************/
+#wrapper {
+	width:225px;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+.accordionButton {	
+	width: 214px;
+	height: 25px;
+	float: left;
+	_float: none;  /* Float works in all browsers but IE6 */
+	background: #F25601;
+	/*border-bottom: 1px solid #CEEDF2; */
+	cursor: pointer;
+	color:#FFF;
+	font-weight:bold;
+	padding:10px 0px 0px 8px;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	margin-bottom:5px;
+	}
+	
+.accordionContent {	
+	width:222px;
+	float: left;
+	_float: none; /* Float works in all browsers but IE6 */
+	/*background:#9BC1C6;*/
+	/* border: 1px solid #CEEDF2; */
+	border-radius:3px;
+	-moz-border-radius:3px;
+	margin-bottom:5px;
+	}
+	
+/***********************************************************************************************************************
+ EXTRA STYLES ADDED FOR MOUSEOVER / ACTIVE EVENTS
+************************************************************************************************************************/
+
+.on {
+	background: #19A9BF;
+	}
+	
+.over {
+	background: #19A9BF;
+	}
+	
+.left-menu{
+	height:25px;
+	background:#F4AC19;
+	/*font-size:16px;
+	font-weight:bold;*/
+	color:#ffffff;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	padding-left:6px;
+	/*margin-left:5px;*/
+	margin-right:4px;
+	/*margin-bottom:5px;*/
+	line-height:25px;
+	text-align:left;
+	border-bottom:solid 1px #FECD81;
+}
+
+.left-menu a{
+	color:#ffffff;
+	text-decoration:none;
+	font-size:14px;
+	font-family:Arial, Helvetica, sans-serif;
+	}
+
+
+
+.left-menu:hover{
+	height:25px;
+	background: #55B7C4;
+	font-weight:bold;
+}	
+	
+	
+	
+	
+	

@@ -1,0 +1,1 @@
+<div class="footerdiv">&copy; 2013 Transmith Group. All Rights Reserved.</div><?php include("langtool.php"); ?>

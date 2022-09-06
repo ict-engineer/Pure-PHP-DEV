@@ -1,0 +1,86 @@
+/***********************************************************************************************************************
+DOCUMENT: style/format.css
+DEVELOPED BY: Ryan Stemkoski
+COMPANY: Zipline Interactive
+EMAIL: ryan@gozipline.com
+PHONE: 509-321-2849
+DATE: 2/26/2009
+DESCRIPTION: This document contains the structural formatting files for the accordion style menu.
+************************************************************************************************************************/
+#wrapper {
+	width:225px;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+.accordionButton {	
+	width: 214px;
+	height: 25px;
+	float: left;
+	_float: none;  /* Float works in all browsers but IE6 */
+	background: #08024c;
+	/*border-bottom: 1px solid #CEEDF2; */
+	cursor: pointer;
+	color:#FFF;
+	font-weight:bold;
+	padding:10px 0px 0px 8px;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	margin-bottom:5px;
+	}
+	
+.accordionContent {	
+	width:222px;
+	float: left;
+	_float: none; /* Float works in all browsers but IE6 */
+	background:#9BC1C6;
+	/* border: 1px solid #CEEDF2; */
+	border-radius:3px;
+	-moz-border-radius:3px;
+	margin-bottom:5px;
+	}
+	
+/***********************************************************************************************************************
+ EXTRA STYLES ADDED FOR MOUSEOVER / ACTIVE EVENTS
+************************************************************************************************************************/
+
+.on {
+	background: #08024c;
+	}
+	
+.over {
+	background: #08024c;
+	}
+	
+.left-menu{
+	height:25px;
+	background:#49447a;
+	font-size:12px;
+	color:#000000;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	padding-left:6px;
+	margin-left:5px;
+	margin-right:4px;
+	/*margin-bottom:5px;*/
+	line-height:25px;
+	text-align:left;
+	border-bottom:solid 1px #999999;
+}
+
+.left-menu a{
+	color:#FFF;
+	text-decoration:none;
+	}
+
+
+
+.left-menu:hover{
+	height:25px;
+	background: #221e69;
+}	
+	
+	
+	
+	
+	

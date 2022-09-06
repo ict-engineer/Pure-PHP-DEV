@@ -1,0 +1,1 @@
+<div class="flexslider"><ul class="slides"><?php foreach($dbf->fetch('banner',"","id","","DESC") as $res_banner) { ?><li><img src="banner_img/banner/<?php echo $res_banner[image];?>" style="-moz-border-radius:5px; border-radius:5px;"/></li><?php } ?></ul></div><div class="shadow"><img src="images/shadow.png" /></div>

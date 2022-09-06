@@ -1,0 +1,9 @@
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php
+
+
+#RewriteCond %{HTTP_HOST} ^transmith-grp.com$
+#RewriteCond %{REQUEST_URI} !php-fastcgi.fcgi
+#RewriteRule (.*) https://www.transmith-grp.com$1 [R=301]
